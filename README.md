@@ -96,24 +96,24 @@ PORT    STATE SERVICE
       IDs:  BID:48539  CVE:CVE-2011-2523
         vsFTPd version 2.3.4 backdoor, this was reported on 2011-07-04.
       Disclosure date: 2011-07-03
-      Host script results:
+Host script results:
   smb-enum-shares:
 	account_used: <blank>
-  
-
-    \\192.168.0.10\IPC$:
+	......
+\\192.168.0.10\IPC$:
 	Type: STYPE_IPC
 	Comment: IPC Service (metasploitable server (Samba 3.0.20-Debian))
 	Max Users: <unlimited>
 	Path: C:\tmp
 	Anonymous access: READ/WRITE
-	\\192.168.0.10\tmp:
+	......
+\\192.168.0.10\tmp:
 	Type: STYPE_DISKTREE
 	Comment: oh noes!
 	Max Users: <unlimited>
 	Path: C:\tmp
 	Anonymous access: READ/WRITE
-  
+  	......
 
 Why is it dangerous:
 
