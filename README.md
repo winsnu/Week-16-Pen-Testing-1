@@ -3,8 +3,10 @@
 ## Step 1: Google Dorking
 
 Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
+
 site:demo.testfire.net intext:executive
-This is the result https://demo.testfire.net/pr/communityannualreport.pdf
+
+This is the result: https://demo.testfire.net/pr/communityannualreport.pdf
 
 How can this information be helpful to an attacker:
 
