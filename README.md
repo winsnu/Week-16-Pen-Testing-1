@@ -100,21 +100,20 @@ PORT    STATE SERVICE
   smb-enum-shares:
 	account_used: <blank>
   
-	......
+
     \\192.168.0.10\IPC$:
 	Type: STYPE_IPC
 	Comment: IPC Service (metasploitable server (Samba 3.0.20-Debian))
 	Max Users: <unlimited>
 	Path: C:\tmp
 	Anonymous access: READ/WRITE
-	......
 	\\192.168.0.10\tmp:
 	Type: STYPE_DISKTREE
 	Comment: oh noes!
 	Max Users: <unlimited>
 	Path: C:\tmp
 	Anonymous access: READ/WRITE
-  	......
+  
 
 Why is it dangerous:
 
